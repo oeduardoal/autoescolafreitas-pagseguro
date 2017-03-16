@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{height: 100vh;position: relative;font-family: "Raleway";background-color: #FECA28;}
+.formulario{margin: 0;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%); width: 50%;}
+
+small{
+	color: #000;
+	font-size: 13px;
+}
+div.row{
+	margin-bottom: .8rem;
+}
+input.form-control,input.form-control:focus,input.form-control:active, select.form-control,select.form-control:focus,select.form-control:active{
+	border: none;
+	box-shadow: none;
+	height: 40px;
+	color: #000;
+	font-weight: 600;
+}
+div.row.btnpagamento{
+	margin-top: 1rem;
+}
+.button-pagamento,.button-pagamento:focus{
+	background-color: #0E0E0E;
+	border: none;
+	padding: 0 0;
+	height: 40px;
+	transition: all .2s ease-in-out;
+	font-weight: 600;
+}
+.button-pagamento:hover,.button-pagamento:active{
+	background-color: #0E0E00;
+}
